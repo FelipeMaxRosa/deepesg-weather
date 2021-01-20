@@ -1,0 +1,30 @@
+:root{
+  --color-text-secondary: #94959b;
+  --color-background-secondary: #f3f5f6;
+}
+
+.text-title{
+  font-family: "Roboto-Bold";
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+.text-subtitle{
+  font-family: 'Roboto-Regular';
+  font-weight: normal;
+  color: var(--color-text-secondary);
+  font-size: 1.4rem;
+  margin-top: 3px;
+}
+
+.container{
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  width: 90%;
+
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
